@@ -77,15 +77,15 @@ function App() {
         <motion.div 
           initial={{ scale: 1.1, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 1.5, ease: "easeOut" }}
+          transition={{ duration: 2, ease: "easeOut" }}
           className="absolute inset-0"
         >
           <img 
-            src="/assets/quinceañeras/651213258_3369403879879298_9148866734338372629_n.jpg" 
-            className="w-full h-full object-cover opacity-60 md:opacity-70"
+            src="assets/quinceañeras/651213258_3369403879879298_9148866734338372629_n.jpg" 
+            className="w-full h-full object-cover brightness-[0.7]"
             alt="Hero background"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/60" />
+          <div className="absolute inset-0 bg-gradient-to-b from-brand-dark/20 via-transparent to-brand-dark/40" />
         </motion.div>
 
         <div className="relative z-10 text-center text-white px-6 max-w-5xl">
@@ -154,10 +154,10 @@ function App() {
             className="relative"
           >
             <div className="aspect-[4/5] rounded-[40px] overflow-hidden shadow-2xl border-[12px] border-brand-light">
-              <img src="/assets/identidad/presentacion 2.png" className="w-full h-full object-cover" alt="Atelier" />
+              <img src="assets/identidad/presentacion 2.png" className="w-full h-full object-cover" alt="Atelier" />
             </div>
             <div className="absolute -bottom-10 -right-10 w-48 h-48 bg-white p-6 rounded-[40px] shadow-2xl hidden md:flex items-center justify-center border-4 border-brand-light animate-bounce-slow">
-              <img src="/assets/identidad/logotipo.png" className="w-full h-full object-contain" alt="Logo icon" />
+              <img src="assets/identidad/logotipo.png" className="w-full h-full object-contain" alt="Logo icon" />
             </div>
           </motion.div>
         </div>
